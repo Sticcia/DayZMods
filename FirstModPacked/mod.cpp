@@ -1,0 +1,10 @@
+name = "First Mod";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "Some tooltip";
+overview = "Some mod overview";
+action = "https://github.com/Sticcia/DayZMods";
+author = "Sticcia";
+version = "1.0";
