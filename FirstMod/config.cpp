@@ -17,10 +17,16 @@ class CfgMods
 		
 		class defs
 		{
+			class gameScriptModule
+			{
+				value = "";
+				files[] = {"FirstMod/3_Game/"};
+			};
+			
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"FirstMod/WorldScripts"};
+				files[] = {"FirstMod/4_World/"};
 			};
 		};
 	};

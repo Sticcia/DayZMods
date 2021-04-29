@@ -5,13 +5,31 @@ DayZ Mod Development Project
 ## Ideas
 
 - Blood stains
-- Countdown alarm
+- Queue countdown alarm
 - Inventory on stairs
 - Better menu
 - Infinite bear(?)
 
+## Set up
 
-## Command line
+### First time
+
+- Settings -> Path to the Project Drive -> `D:\Davide Costa\Documents\GitHub\DayZMods`
+- Tools -> Extract Game Dat
+- Addon Builder -> Addon source directory -> `P:\FirstMod`
+- Addon Builder -> Destination directory -> `P:\PackedPbos`
+- Addon Builder -> Options -> Path to project folder -> `P:\`
+
+### Every time
+
+- Tools -> Mount Drive P
+
+### In case of project change
+
+- Addon Builder -> Pack
+- Copy `P:\PackedPbos\*.pbo` to `P:\FirstModPacked\Addons\`
+
+## Useful commands
 
 ### Open workbench
 
